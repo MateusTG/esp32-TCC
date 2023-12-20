@@ -3,10 +3,10 @@
 #include <HardwareSerial.h>
 
 //COnfigurando o WiFi
-const char* ssid = "MATEUS-PC";
-const char* password = "12345678";
-const char* serverIP = "192.168.137.1";
-const int serverPort = 5001; // Substitua pela porta correta do servidor Node.js
+const char* ssid = "SSID";
+const char* password = "PASS";
+const char* serverIP = "ADDRESS";//Substitua pelo endereço do servidor
+const int serverPort = PORT; // Substitua pela porta correta do servidor Node.js
 
 WiFiClient client;
 
